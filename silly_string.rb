@@ -2,11 +2,11 @@
 
 your_favorite_word = "Miya"
 
-puts "My favorite word is" + your_favorite_word}
+puts "My favorite word is" + your_favorite_word
 
 # Challenge 2: Capitalize every letter in your_favorite_word using a built in Ruby method
 
-favorite_word_in_all_caps = your_favorite_word.upcase
+favorite_word_in_all_caps = "Miya".upcase
 
 puts "MY FAVORITE WORD IS #{favorite_word_in_all_caps}"
 
@@ -46,6 +46,6 @@ sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples 
 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
-sentence = sentence.gsub ("A","O")
+sentence = sentence.gsub("A","O").gsub("a","o")
 
 puts sentence
